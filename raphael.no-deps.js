@@ -6871,7 +6871,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
         container.clear();
         container._left = container._top = 0;
         isFloating && (container.renderfix = function () {});
-        container.renderfix();
+        // container.renderfix();
         return container;
     };
     R._engine.setViewBox = function (x, y, w, h, fit) {
